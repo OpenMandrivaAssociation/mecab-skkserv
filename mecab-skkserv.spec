@@ -17,6 +17,7 @@ Group:		System/Internationalization
 URL:		http://chasen.org/~taku/software/mecab/
 Source0:	%{name}-%{version}.tar.bz2
 Source1:	mecab-skkserv_xinetd
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root
 Requires:		mecab >= %{mecabversion}
 Requires:		xinetd
 BuildRequires:		mecab-devel >= %{mecabversion}

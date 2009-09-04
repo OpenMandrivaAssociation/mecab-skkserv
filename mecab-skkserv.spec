@@ -1,5 +1,5 @@
 %define version	0.03
-%define release	%mkrel 3
+%define release	%mkrel 4
 
 %define mecabversion 0.91
 

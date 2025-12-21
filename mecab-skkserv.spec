@@ -20,6 +20,11 @@ Source1:	mecab-skkserv_xinetd
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root
 Requires:		mecab >= %{mecabversion}
 Requires:		xinetd
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:		mecab-devel >= %{mecabversion}
 # for mecab-config:
 BuildRequires:		mecab
